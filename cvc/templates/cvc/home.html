@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>NYU Shanghai CVDC</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'cvc/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'cvc/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'cvc/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'cvc/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'cvc/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'cvc/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'cvc/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="{% static 'cvc/css/main.css' %}" rel="stylesheet">
+  <!-- =======================================================
+  * Template Name: Impact - v1.2.0
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<body>
+  <!-- ======= Header ======= -->
+
+  <img src="{% static "cvc/img/hero-img.jpeg" %}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="{% static 'cvc/assets/img/logo.png' %}" alt="">
+        <h1>Collective Voice Debate Club<span></span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Leadership</a></li>
+          <li><a href="">Recruitment</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Admin</a></li>
+          <li class="dropdown"><a href="#"><span>Contact</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            </ul>
+          </li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Collective Voice Debate Club<span></span></h2>
+          <p>NYU Shanghai Student Association | 上海纽约大学本科生商社</p>
+          <p>Are you interested in debating about global issues? Want to learn to become a better public speaker/argumentator? No matter what your major is or what you’re passionate about, come join us to become the collective voice. We seek students from all academic and personal backgrounds. </p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="{% static 'cvc/assets/img/logo.png' %}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-easel"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Join Us</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-gem"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Leadership Team</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-geo-alt"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Recent Events</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-command"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Media</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <img src="{% static 'cvc/assets/img/34.jpeg' %}" class="img-fluid rounded-4 mb-4" alt="">
+            <p>Collective Voice is NYU Shanghai’s leading English-language debate club focused on multiple styles of debating: British Parliamentary, American Parliamentary, Chinese, etc. We train NYU Shanghai students in these informal and formal debating styles to prepare them for intervarsity debate tournaments within China and internationally. </p>
+            <p>One of the most academically demanding and rewarding experiences that NYU Shanghai can provide is debating. Collective Voice Debate Club assists individuals in acquiring argumentation skills, good judgment, self-assurance, and the ability to act quickly under pressure. Debating diverse issues involving international public policy, current affairs, sciences, ethics, and philosophy. We equip our members with in-depth research, keen observational skills, and an intellectual foundation. Assisted debates with a mentor's guidance promote flexibility and productive interaction. All of these abilities remain with us for the rest of our lives and are crucial to both our personal and professional success.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+              We regulalry hold:
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Intensive mentorship sessions in American Parliamentary, British Parliamentary, and Chinese Debate.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Monthly Competitive Debating Tournaments. </li>
+                <li><i class="bi bi-check-circle-fill"></i> Round Table Intimate Discussions About Politics, Social Sciences, STEM, Educatipn, etc. </li>
+              </ul>
+              <div class="position-relative mt-4">
+                <img src="{% static 'cvc/assets/img/32.jpeg' %}" class="img-fluid rounded-4" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.svg.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Stats Counter Section ======= -->
+    <section id="stats-counter" class="stats-counter">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4 align-items-center">
+
+          <div class="col-lg-6">
+            <img src="{% static 'cvc/assets/img/stats-img.svg' %}" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="stats-item d-flex align-items-center">
+              <span data-purecounter-start="0" data-purecounter-end="67" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Committed Members </strong></p>
+            </div><!-- End Stats Item -->
+
+            <div class="stats-item d-flex align-items-center">
+              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>NYU Shanghai Faculty Members</strong></p>
+            </div><!-- End Stats Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Stats Counter Section -->
+
+
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Our Team</h2>
+        </div>
+
+        <div class="row gy-3">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="{% static 'cvc/assets/img/team/team-1.jpg' %}" class="img-fluid" alt="">
+              <h4>Marta Wieczorkiewicz</h4>
+              <h6>President</h6>
+              <div class="social">
+
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="{% static 'cvc/assets/img/team/team-2.jpg' %}" class="img-fluid" alt="">
+              <h4>Ishita Jaiswal</h4>
+              <h6>Vice President</h6>
+              <div class="social">
+
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'cvc/assets/img/team/team-3.jpg' %}" class="img-fluid" alt="">
+              <h4>Faiez Akmal</h4>
+              <h6>Treasurer</h6>
+              <div class="social">
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+<!-- End Team Member -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-posts" class="recent-posts sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Recent Blog Posts</h2>
+          <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="{% static 'cvc/img/blog/blog-1.jpg' %}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Debate</p>
+
+              <h2 class="title">
+                <a href="blog-details.html">Fall 2022 Inaugral Session</a>
+              </h2>
+
+              <div class="d-flex align-items-center">
+                <img src="{% static 'cvc/img/logo.png' %}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <div class="post-meta">
+                  <p class="post-author">Ishita Jaiswal</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+
+      </div>
+    </section><!-- End Recent Blog Posts Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Collective Voice Debate Club</span>
+          </a>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="wechat"><i class="bi bi-wechat"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Recruitment</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Mock Debates</a></li>
+            <li><a href="#">Weekly Debate Tournaments</a></li>
+            <li><a href="#">Mentorship Pairing</a></li>
+            <li><a href="#">Public Speaking</a></li>
+            <li><a href="#">Professional Development</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+
+            1555 Shiji Blvd
+            Pudong<br>
+            Shanghai<br>
+            China, 200122<br><br>
+            <strong>Phone:</strong> +86 6621212355<br>
+            <strong>Email:</strong> nyushcvdc@nyu.edu<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Collective Voice Debate Club</span></strong>. All Rights Reserved
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'cvc/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'cvc/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'cvc/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'cvc/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'cvc/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'cvc/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'cvc/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'cvc/js/main.js' %}"></script>
+
+</body>
+
+</html>
